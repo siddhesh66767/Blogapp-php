@@ -1,0 +1,5 @@
+This is PHP blog app
+Admin name : test  Password: test
+CRUD operation can be done in admin account
+User can only read the blogs
+Database is also attached in zip file

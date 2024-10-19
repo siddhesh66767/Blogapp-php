@@ -1,0 +1,77 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background for better readability */
+    color: #343a40; /* Dark text for contrast */
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #007bff; /* Primary link color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.dropdown-menu {
+    min-width: 160px; /* Ensure dropdowns are wide enough */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px; /* Set a max width for better content alignment */
+    margin: auto; /* Center container */
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3, h4 {
+    margin-bottom: 15px; /* Space below headings */
+}
+
+/* Form styles */
+.form-control {
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* List styles */
+.list-group-item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #dee2e6; /* Light border */
+}
+
+.list-group-item h5 {
+    margin-bottom: 5px; /* Space below post titles */
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f9fa; /* Match body background */
+    padding: 10px 0; /* Padding for footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Alert styles */
+.alert {
+    margin-top: 15px; /* Space above alerts */
+}
